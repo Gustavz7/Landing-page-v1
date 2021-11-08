@@ -1,0 +1,86 @@
+footer {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url(../../src/images/footer-bg.jpg);
+  background-repeat: repeat;
+  color: $font-terciario;
+  padding: 1.5rem 1rem;
+  width: auto;
+}
+
+.footer-section {
+  padding: 1rem 0.5rem;
+  justify-content: center;
+  text-align: center;
+}
+er-section p {
+  text-align: center;
+  margin: 0.25rem;
+}
+.div-links {
+  margin: auto;
+  width: 75%;
+  padding: 0.25rem;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+.social-icons {
+  font-size: 40px;
+  text-align: center;
+}
+.social-icons a {
+  color: $font-terciario;
+  text-decoration: none;
+}
+.footer-section{
+    margin-bottom: 0;
+}
+.footer-main ul {
+  list-style-type: none;
+  padding-left: auto;
+}
+.footer-main ul li a {
+  color: $font-terciario;
+  text-decoration: none;
+}
+.footer-main ul li a:hover,
+.social-icons a:hover {
+  color: $hover-c1;
+}
+
+.link-header {
+  display: block;
+  color: $font-terciario;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 0.25 rrem;
+  margin-bottom: 1px;
+}
+.resumen {
+  margin: 1px;
+  text-align: justify;
+}
+.link-sub {
+  color: $font-principal;
+}
+
+.creditos {
+  padding: 0.5rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+.creditos p {
+  display: block;
+  margin: 0;
+}
+.creditos hr {
+  margin: 0.25rem;
+}

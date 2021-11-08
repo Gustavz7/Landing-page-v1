@@ -1,0 +1,64 @@
+
+/*nav-bar*/
+header, main, footer {
+  color: white;
+    background-color: black;
+}
+header{
+  max-width: 100%;
+  height: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+   top: 0;
+   width: 100%;
+  }
+nav ul li {
+    float: left;
+  }
+nav ul li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+nav ul li a:hover {
+    background-color: rgb(44, 44, 44);
+    text-decoration: none;
+  }
+  .l-item{
+      font-size: 120%;
+      font-weight: bold;
+      left: 50px;
+  }
+  .r-item{
+    font-size: 120%;
+    font-weight: bold;
+    right: 0;
+    float: right
+  }
+  
+ /*carrusel de imagenes*/
+.img{
+    height: 50%;
+    width: 100%;
+  }
+
+  p, h1{
+    margin: 0!important
+  }
+
+  /*footer*/
+  .img-footer{
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

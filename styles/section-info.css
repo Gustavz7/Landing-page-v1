@@ -1,0 +1,18 @@
+.article-info {
+  background-color: #5F5F5F;
+  height: auto;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 10%;
+}
+
+.div-cn_prod {
+  display: flex;
+  flex-direction: row;
+}
+
+.horizontal-hr {
+  border-top: 100%;
+  color: white;
+  width: 100%;
+}

@@ -1,0 +1,141 @@
+.article-info {
+  height: auto;
+  text-align: center;
+}
+
+/*left*/
+.div-cn_prod {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-content {
+  background-color: #5f5f5f;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 60%;
+  
+}
+.horizontal-hr {
+  color: rgb(255, 255, 255);
+  height: 2px !important;
+  padding: 2px 0;
+  margin: 5px 0;
+}
+.items {
+  width: 90%;
+}
+.left-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/*right*/
+.right-content {
+  background-color: #5f5f5f;
+  margin-left: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+  padding: 10px;
+}
+.items{
+  padding: 30px 0;
+}
+.btn-box {
+  height: 30px;
+  width: 160px;
+  border: 2px solid $font-principal;
+  margin: auto;
+}
+.btn-text {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.btn-box:hover {
+  box-shadow: 0 0 15px rgba(255, 153, 0, 0.8);
+}
+.btn-text:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*Horarios & Mapa*/
+.left-content-map {
+  background-color: #5f5f5f;
+  font-size: 16px;
+  padding: 40px 10px;
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.items-lmap {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-title-lmap {
+  color: $font-principal;
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+  margin: 0;
+}
+.p-lmap {
+  display: block;
+  margin: 0;
+}
+
+.right-content-map {
+  background-color: #5f5f5f;
+  margin-left: 3px;
+  width: 70%;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  height: 280px;
+  width: 100%;
+}
+
+.known-more {
+  background-color: rgba(35, 35, 35, 0.8);
+  padding: 2rem 8rem;
+}
+.items-l{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.known-more-l {
+  background-color: transparent;
+  padding: 1rem;
+}
+.known-more-r {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.known-more-btn {
+  margin-top: 10px;
+}
+.img-circle {
+  background-color: white;
+  min-height: 250px;
+  min-width: 250px;
+  border-radius: 100%;
+}

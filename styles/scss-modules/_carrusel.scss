@@ -1,0 +1,66 @@
+.carrusel {
+  width: 100%;
+  max-width: 120em;
+  padding: 2em 0em 0em 0em;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  text-align: center;
+}
+
+.carrusel-items {
+  /*100% = 1 img*/
+  width: 500%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.4s ease;
+  border-radius: 0.5em;
+  padding: 1em 0 0 1em;
+  transition: all 0.5s ease;
+  /*el % a mover debe ser proporcional al n imgs*/
+  transform: translateX(0%);
+  text-align: center;
+}
+
+.carrusel-items img {
+  /*modificar este atributo en caso de mas imagenes*/
+  min-height: 10rem;
+  max-height: 30rem;
+  border-radius: 0.5em;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.carrusel-points {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.point {
+  background-color: rgb(44, 50, 56);
+  width: 2em;
+  height: 2em;
+  margin: 0.5em;
+  transition: all 0.4s ease;
+  border-radius: 1em;
+}
+.point:hover {
+  background-color: springgreen;
+}
+.activo {
+  background-color: lightblue;
+}
+li {
+  list-style-type: none;
+}
+
+.carrusel-text{
+ bottom: 20em;
+ position: absolute;
+ text-align: center;
+}

@@ -1,0 +1,14 @@
+.btn-box {
+    background-color: blue;
+    height: 25px;
+    width: 160px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 5px;
+
+    border: 2px solid #4CAF50;
+  }
+  .btn-text {
+    text-decoration: none;
+    color: black;
+  }

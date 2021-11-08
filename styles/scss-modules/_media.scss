@@ -1,0 +1,141 @@
+@media (max-width: 720px) {
+  .bar-media {
+    display: block;
+  }
+  .bar-media:hover {
+    opacity: 0.5;
+  }
+
+  .nav-box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    background-color: rgb(51, 51, 51);
+    opacity: 0.8;
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(-100%);
+  }
+  .navbar-items {
+    flex-direction: column;
+  }
+  .logo-name{
+    padding-bottom: 10px;
+  }
+  .navbar-items li {
+    font-size: 20px;
+    border-bottom: #ccc solid 1px;
+    padding: 2.5% 5%;
+  }
+  .navbar-items li a {
+    padding: 0;
+  }
+  .bars{
+    display: block;
+    position: fixed;
+    right: 40px;
+    top: 20px;
+    font-size: 38px;
+    z-index: 6;
+    box-shadow: 8px 8px black rgba(0, 0, 0, .2);
+  }
+  .bars a{
+    padding: 0;
+  }
+  .show-nav-box{
+    transform: translateX(0%);
+  }
+
+  .cards {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card {
+    height: 300px;
+    max-width: 180px;
+    margin: 5px;
+  }
+  .card-img {
+    max-width: 180px;
+    min-height: 220px;
+  }
+  .card-text {
+    font-size: 18px;
+    bottom: 0px;
+  }
+  .div-cn_prod {
+    flex-wrap: wrap;
+    margin-bottom: 0 5px;
+    height: auto;
+  }
+  .left-content {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 3px;
+    padding: 20px;
+  }
+
+  .right-content {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 3px;
+    padding: 20px;
+  }
+
+  .article-info {
+    padding: 15px;
+    height: auto;
+  }
+  .left-content-map {
+    width: 100%;
+    padding: 10px;
+  }
+  .right-content-map {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 3px;
+  }
+  #map {
+    height: 250px;
+    margin-bottom: 10px;
+  }
+
+  .known-more-r {
+    justify-content: center;
+  }
+
+  .img-circle {
+    width: 200px;
+    height: 200px;
+  }
+  .footer-main {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-template-columns: none;
+  }
+  .article-info{
+    margin: 10px;
+    margin-bottom: 0;
+  }
+  .principal-text{
+    top: 20%;
+    left: 50%;
+  }
+
+}
+
+@media (max-width:350px) {
+  .principal-text{
+    top: 10%;
+    left: 50%;
+  }
+  .principal-text h2 {
+    font-size: 20px;
+  }
+}
