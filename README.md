@@ -10,3 +10,6 @@
 
 ## Prueba el demo aqui
 **https://bit.ly/Tienda-LandingPage**
+
+##Prueba este QR
+![alt text](qr.png)
