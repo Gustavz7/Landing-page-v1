@@ -1,6 +1,12 @@
 # Landing-page-v1
-Esta pagina web esta construida con HTML, CSS y JAVASCRIPT, usando el preprocesador de css SASS, además cuenta con integración con google maps (demo).
+* Esta pagina web esta construida con:
+* HTML
+* CSS
+* JAVASCRIPT
+* Preprocesador de css SASS
+* Integración con google maps (demo)
+
+#Responsivo para dispositivos Moviles
 
 ##Prueba el demo aqui
-
-**https://bit.ly/landing-page-v1**
+**https://bit.ly/Tienda-LandingPage**
