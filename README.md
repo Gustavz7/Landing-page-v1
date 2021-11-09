@@ -1,5 +1,5 @@
 # Landing-page-v1
-* Esta pagina web esta construida con:
+##Esta pagina web esta construida con:
 * HTML
 * CSS
 * JAVASCRIPT
