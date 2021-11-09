@@ -12,4 +12,7 @@
 **https://bit.ly/Tienda-LandingPage**
 
 ##Prueba este QR
+\
+\
+\
 ![alt text](qr.png)
