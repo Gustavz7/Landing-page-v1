@@ -1,12 +1,12 @@
 # Landing-page-v1
-##Esta pagina web esta construida con:
+## Esta pagina web esta construida con:
 * HTML
 * CSS
 * JAVASCRIPT
 * Preprocesador de css SASS
 * Integración con google maps (demo)
 
-#Responsivo para dispositivos Moviles
+# Responsivo para dispositivos Moviles
 
-##Prueba el demo aqui
+## Prueba el demo aqui
 **https://bit.ly/Tienda-LandingPage**
